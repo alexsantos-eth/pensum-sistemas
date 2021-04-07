@@ -15,6 +15,14 @@
 		},
 		"post": {
 			"date": "Fecha: "
+		},
+		"filter": {
+			"title": "Filtrar",
+			"description": "Ordena todos los resultados según su tipo, para facilitar la búsqueda.",
+			"courseCheck": "Filtrar por curso",
+			"docentCheck": "Filtrar por catedrático",
+			"selectCourse": "Seleccionar curso",
+			"selectDocent": "Seleccionar catedrático"
 		}
 	}
 }

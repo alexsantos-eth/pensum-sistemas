@@ -10,7 +10,13 @@ import TestData from 'Test/TestData.json'
 // COMPONENTES
 import CommentCard from 'Components/CommentCard/CommentCard'
 
+// HOOKS
+import { useStrings } from 'Hooks/Context'
+
 const CommentsList = () => {
+	// STRINGS
+	const lang = useStrings()
+
 	return (
 		<div className={Styles.container}>
 			{TestData.posts.map((data: Post, index: number) =>
@@ -19,27 +25,27 @@ const CommentsList = () => {
 				) : (
 					<div key='filter_0' className={Styles.filters}>
 						<h3 className='title is-4 has-text-ter'>
-							<span className='material-icons-two-tone'>filter_alt</span> Filtrar
+							<span className='material-icons-two-tone'>filter_alt</span> {lang.filter.title}
 						</h3>
-						<p>Ordena todos los resultados según su tipo, para facilitar la búsqueda.</p>
+						<p>{lang.filter.description}</p>
 						<div className={Styles.inputs}>
 							<label className='checkbox'>
-								Filtrar por curso
+								{lang.filter.courseCheck}
 								<input type='checkbox' />
 							</label>
 							<label className='checkbox'>
-								Filtrar por catedrático
+								{lang.filter.docentCheck}
 								<input type='checkbox' />
 							</label>
 							<div className='select'>
-								<select defaultValue='Seleccionar curso'>
-									<option>Seleccionar curso</option>
+								<select defaultValue={lang.filter.selectCourse}>
+									<option>{lang.filter.selectCourse}</option>
 									<option>IPC 1</option>
 								</select>
 							</div>
 							<div className='select'>
-								<select defaultValue='Seleccionar catedrático'>
-									<option>Seleccionar catedrático</option>
+								<select defaultValue={lang.filter.selectDocent}>
+									<option>{lang.filter.selectDocent}</option>
 									<option>Chocomax</option>
 								</select>
 							</div>

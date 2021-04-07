@@ -6,7 +6,7 @@
 	left: 0;
 	width: auto;
 	height: 100vh;
-	z-index: 2;
+	z-index: 20;
 	background: $info-dark;
 	padding: 15px;
 	box-shadow: 5px 0 5px rgba(0, 0, 0, 0.2);
@@ -20,7 +20,7 @@
 		li {
 			margin-bottom: 10px;
 
-			button {
+			a {
 				background: transparent;
 				padding: 0;
 				appearance: none;
@@ -33,6 +33,23 @@
 					filter: invert(100%) sepia(8%) saturate(7487%) hue-rotate(220deg) brightness(114%)
 						contrast(89%);
 				}
+			}
+
+			&:nth-child(2) {
+				margin-top: 60px;
+			}
+
+			img {
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				object-fit: contain;
+				left: 15px;
+				cursor: pointer;
+				background: $white;
+				padding: 10px;
+				border-radius: 8px;
+				box-shadow: 5px 0 5px rgba(0, 0, 0, 0.1);
 			}
 		}
 	}

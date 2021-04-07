@@ -3,8 +3,18 @@ export interface Strings {
 }
 
 export interface Es {
-    forum: Forum;
-    post:  Post;
+    forum:  Forum;
+    post:   Post;
+    filter: Filter;
+}
+
+export interface Filter {
+    title:        string;
+    description:  string;
+    courseCheck:  string;
+    docentCheck:  string;
+    selectCourse: string;
+    selectDocent: string;
 }
 
 export interface Forum {

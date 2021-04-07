@@ -11,10 +11,14 @@ import MainProvider from 'Providers/Main'
 // RUTAS
 import Router from 'Router/Router'
 
+// COMPONENTES
+import Navbar from 'Components/Navbar/Navbar'
+
 const App: React.FC = () => {
 	return (
 		<BrowserRouter>
 			<MainProvider>
+				<Navbar />
 				<Router />
 			</MainProvider>
 		</BrowserRouter>

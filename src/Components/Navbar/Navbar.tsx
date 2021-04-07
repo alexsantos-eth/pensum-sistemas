@@ -1,27 +1,37 @@
 // REACT
 import React from 'react'
 
+// ASSETS
+import Logo from 'Assets/Vectors/FIUSAC.png'
+
+// ROUTER
+import { Link } from 'react-router-dom'
+
 // ESTILOS
 import Styles from './Navbar.module.scss'
+import ROUTES from 'Env/Routes'
 
 const Navbar = () => {
 	return (
 		<nav className={Styles.container}>
 			<ul>
 				<li>
-					<button type='button' className='icon'>
+					<img src={Logo} alt='Logo' />
+				</li>
+				<li>
+					<Link to={ROUTES.post} className='icon'>
+						<i className='material-icons-two-tone'>note_add</i>
+					</Link>
+				</li>
+				<li>
+					<Link to={ROUTES.forum} className='icon'>
 						<i className='material-icons-two-tone'>home</i>
-					</button>
+					</Link>
 				</li>
 				<li>
-					<button type='button' className='icon'>
-						<i className='material-icons-two-tone'>grid_view</i>
-					</button>
-				</li>
-				<li>
-					<button type='button' className='icon'>
-						<i className='material-icons-two-tone'>donut_small</i>
-					</button>
+					<Link to={ROUTES.index} className='icon'>
+						<i className='material-icons-two-tone'>person</i>
+					</Link>
 				</li>
 			</ul>
 		</nav>

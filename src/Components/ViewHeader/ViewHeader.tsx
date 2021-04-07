@@ -6,6 +6,7 @@ import Styles from './ViewHeader.module.scss'
 
 // ASSETS
 import Vector from 'Assets/Vectors/forum.png'
+import Profile from 'Assets/Vectors/profile.png'
 
 // HOOKS
 import { useStrings } from 'Hooks/Context'
@@ -32,6 +33,13 @@ export const ViewHeader = () => {
 				</label>
 			</div>
 			<img src={Vector} alt='Vector' />
+			<div className={Styles.profile}>
+				<img src={Profile} alt='Profile' />
+				<div>
+					<h2>Alex Santos</h2>
+					<p>ID: 201904117</p>
+				</div>
+			</div>
 		</div>
 	)
 }
