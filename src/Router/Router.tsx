@@ -10,10 +10,14 @@ import Index from 'Pages/Index/Index'
 // RUTAS
 import ROUTES from 'Env/Routes'
 
+// PAGINAS
+import Forum from 'Pages/Forum/Forum'
+
 const Router = () => {
 	return (
 		<Switch>
 			<Route exact path={ROUTES.index} component={Index} />
+			<Route exact path={ROUTES.forum} component={Forum} />
 		</Switch>
 	)
 }

@@ -1,3 +1,20 @@
 {
-	"es":{}
+	"es": {
+		"forum": {
+			"header": {
+				"title": "Recomendaciones de cursos",
+				"description": "Encuentra recomendaciones, calificaciones y comentarios de otros estudiantes sobre tus cursos y comparte opiniones.",
+				"search": {
+					"placeholder": "Buscar cursos..."
+				}
+			},
+			"recent": {
+				"title": "Publicaciones recientes",
+				"description": "Aquí se muestran las ultimas publicaciones creadas por otros estudiantes."
+			}
+		},
+		"post": {
+			"date": "Fecha: "
+		}
+	}
 }

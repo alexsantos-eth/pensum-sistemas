@@ -1,6 +1,6 @@
 {
-	"short_name": "React APP",
-	"name": "React APP",
+	"short_name": "PENSUM",
+	"name": "PENSUM",
 	"start_url": ".",
 	"display": "standalone",
 	"theme_color": "#511F73",

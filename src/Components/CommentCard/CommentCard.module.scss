@@ -1,0 +1,32 @@
+.container {
+	.dropBtn {
+		appearance: none;
+		background: transparent;
+		border: none;
+		outline: none;
+		cursor: 'pointer';
+	}
+
+	.content {
+		p {
+			overflow: hidden;
+			display: -webkit-box;
+			-webkit-line-clamp: 4;
+			-webkit-box-orient: vertical;
+		}
+
+		time {
+			strong {
+				opacity: 0.8;
+			}
+		}
+	}
+
+	.action {
+		span {
+			margin-right: 10px;
+			filter: invert(21%) sepia(89%) saturate(1340%) hue-rotate(219deg) brightness(86%)
+				contrast(94%);
+		}
+	}
+}

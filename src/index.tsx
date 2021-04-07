@@ -7,6 +7,7 @@ import App from 'Components/App/App'
 
 // ESTILOS
 import './index.css'
+import 'bulma/bulma.sass'
 
 // SERVICE WORKER
 import * as sw from './serviceWorker'
