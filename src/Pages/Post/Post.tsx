@@ -4,7 +4,7 @@ import React from 'react'
 // VISTAS
 import PostView from 'Views/Post/Post'
 
-const Post = () => {
+const Post: React.FC = () => {
 	return <PostView />
 }
 

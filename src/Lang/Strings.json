@@ -23,6 +23,21 @@
 			"docentCheck": "Filtrar por catedrático",
 			"selectCourse": "Seleccionar curso",
 			"selectDocent": "Seleccionar catedrático"
+		},
+		"newPost": {
+			"title": "Crear publicación",
+			"description": "Todos los comentarios de la publicación también sera visibles para otros usuarios, este sitio se reserva la censura de publicaciones.",
+			"form": {
+				"user": "Publicar como",
+				"inputs": [
+					"Seleccionar curso",
+					"Seleccionar catedrático",
+					"Describe tu mensaje en 250 palabras o menos"
+				],
+				"labels": ["Mensaje de la publicación"],
+				"footer": "Evitar el uso de comentarios agresivos.",
+				"buttons": ["Reiniciar", "Publicar"]
+			}
 		}
 	}
 }

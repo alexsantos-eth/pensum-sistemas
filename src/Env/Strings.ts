@@ -3,9 +3,10 @@ export interface Strings {
 }
 
 export interface Es {
-    forum:  Forum;
-    post:   Post;
-    filter: Filter;
+    forum:   Forum;
+    post:    Post;
+    filter:  Filter;
+    newPost: NewPost;
 }
 
 export interface Filter {
@@ -35,6 +36,20 @@ export interface Search {
 export interface Recent {
     title:       string;
     description: string;
+}
+
+export interface NewPost {
+    title:       string;
+    description: string;
+    form:        Form;
+}
+
+export interface Form {
+    user:    string;
+    inputs:  string[];
+    labels:  string[];
+    footer:  string;
+    buttons: string[];
 }
 
 export interface Post {

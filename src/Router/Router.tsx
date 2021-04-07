@@ -19,7 +19,7 @@ const Router = () => {
 		<Switch>
 			<Route exact path={ROUTES.index} component={Index} />
 			<Route exact path={ROUTES.forum} component={Forum} />
-			<Route exact path={ROUTES.forum} component={Post} />
+			<Route exact path={ROUTES.post} component={Post} />
 		</Switch>
 	)
 }
