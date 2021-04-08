@@ -42,6 +42,15 @@
 				"title": "Previsualizar publicación",
 				"description": "Asi se vera tu publication en la pagina principal del sitio."
 			}
+		},
+		"profile": {
+			"carnet": "Registro académico: ",
+			"courses": {
+				"credits": "Créditos obtenidos",
+				"creditsDescription": "Se calcula automáticamente los créditos obtenidos según el listado de cursos, no se incluyen los créditos extracurriculares.",
+				"title": "Cursos aprobados",
+				"description": "Lista de cursos aprobados por el estudiante, estos no necesariamente reflejan la realidad de los cursos."
+			}
 		}
 	}
 }

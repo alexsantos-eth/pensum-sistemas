@@ -1,58 +1,71 @@
 export interface Strings {
-    es: Es;
+	es: Es
 }
 
 export interface Es {
-    forum:   Forum;
-    post:    Post;
-    filter:  Filter;
-    newPost: NewPost;
+	forum: Forum
+	post: Post
+	filter: Filter
+	newPost: NewPost
+	profile: Profile
 }
 
 export interface Filter {
-    title:        string;
-    description:  string;
-    courseCheck:  string;
-    docentCheck:  string;
-    selectCourse: string;
-    selectDocent: string;
+	title: string
+	description: string
+	courseCheck: string
+	docentCheck: string
+	selectCourse: string
+	selectDocent: string
 }
 
 export interface Forum {
-    header: Header;
-    recent: Recent;
+	header: Header
+	recent: Recent
 }
 
 export interface Header {
-    title:       string;
-    description: string;
-    search:      Search;
+	title: string
+	description: string
+	search: Search
 }
 
 export interface Search {
-    placeholder: string;
+	placeholder: string
 }
 
 export interface Recent {
-    title:       string;
-    description: string;
+	title: string
+	description: string
 }
 
 export interface NewPost {
-    title:       string;
-    description: string;
-    form:        Form;
-    viewer:      Recent;
+	title: string
+	description: string
+	form: Form
+	viewer: Recent
 }
 
 export interface Form {
-    user:    string;
-    inputs:  string[];
-    labels:  string[];
-    footer:  string;
-    buttons: string[];
+	user: string
+	inputs: string[]
+	labels: string[]
+	footer: string
+	buttons: string[]
 }
 
 export interface Post {
-    date: string;
+	date: string
+}
+
+export interface Profile {
+	carnet: string
+	courses: Courses
+}
+
+export interface Courses {
+	credits: string
+	creditsDescription: string
+	title: string
+	description: string
 }

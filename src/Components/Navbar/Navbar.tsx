@@ -29,7 +29,7 @@ const Navbar = () => {
 					</Link>
 				</li>
 				<li>
-					<Link to={ROUTES.index} className='icon'>
+					<Link to={ROUTES.profile.replace(':id', '201904117')} className='icon'>
 						<i className='material-icons-two-tone'>person</i>
 					</Link>
 				</li>
