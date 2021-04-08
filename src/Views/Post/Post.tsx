@@ -25,7 +25,7 @@ const PostView = () => {
 						msg: 'Mensaje de prueba',
 						date: '2021/03/12',
 						id: 100,
-						docent: 'Chocomax',
+						docent: 'Marlon Orellana',
 					}}
 				/>
 			</div>

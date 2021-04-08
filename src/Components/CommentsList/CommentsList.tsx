@@ -46,7 +46,7 @@ const CommentsList = () => {
 							<div className='select'>
 								<select defaultValue={lang.filter.selectDocent}>
 									<option>{lang.filter.selectDocent}</option>
-									<option>Chocomax</option>
+									<option>Marlon Orellana</option>
 								</select>
 							</div>
 						</div>
