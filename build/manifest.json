@@ -1,0 +1,8 @@
+{
+	"short_name": "PENSUM",
+	"name": "PENSUM",
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#511F73",
+	"background_color": "#ffffff"
+}

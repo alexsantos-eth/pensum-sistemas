@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.033aad92.chunk.css",
+    "main.js": "/static/js/main.7d42b15a.chunk.js",
+    "main.js.map": "/static/js/main.7d42b15a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2e983e47.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2e983e47.js.map",
+    "static/css/2.d1ab60d4.chunk.css": "/static/css/2.d1ab60d4.chunk.css",
+    "static/js/2.eb3d829b.chunk.js": "/static/js/2.eb3d829b.chunk.js",
+    "static/js/2.eb3d829b.chunk.js.map": "/static/js/2.eb3d829b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cc99bdb0311cc3051ffddc08a444d9c7.js": "/precache-manifest.cc99bdb0311cc3051ffddc08a444d9c7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.d1ab60d4.chunk.css.map": "/static/css/2.d1ab60d4.chunk.css.map",
+    "static/css/main.033aad92.chunk.css.map": "/static/css/main.033aad92.chunk.css.map",
+    "static/js/2.eb3d829b.chunk.js.LICENSE.txt": "/static/js/2.eb3d829b.chunk.js.LICENSE.txt",
+    "static/media/FIUSAC.png": "/static/media/FIUSAC.e42b2204.png",
+    "static/media/ViewHeader.module.scss": "/static/media/forum.6aad1732.jpg",
+    "static/media/forum.png": "/static/media/forum.d417f687.png",
+    "static/media/index.css": "/static/media/orkney-regular.9c561ade.otf",
+    "static/media/post.png": "/static/media/post.6c9d4ddd.png",
+    "static/media/PostHeader.module.scss": "/static/media/post.74dac0ff.jpg",
+    "static/media/ProfileHeader.module.scss": "/static/media/profile.3dc555f9.jpg",
+    "static/media/profile.png": "/static/media/profile.b540c083.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e983e47.js",
+    "static/css/2.d1ab60d4.chunk.css",
+    "static/js/2.eb3d829b.chunk.js",
+    "static/css/main.033aad92.chunk.css",
+    "static/js/main.7d42b15a.chunk.js"
+  ]
+}
