@@ -19,6 +19,10 @@
 			}
 		}
 
+		&:last-of-type {
+			background: #eee;
+		}
+
 		&:first-of-type {
 			padding: 15px 20px 15px calc(54px + 25px);
 

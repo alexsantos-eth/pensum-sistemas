@@ -42,6 +42,7 @@ export interface NewPost {
     title:       string;
     description: string;
     form:        Form;
+    viewer:      Recent;
 }
 
 export interface Form {

@@ -37,6 +37,10 @@
 				"labels": ["Mensaje de la publicación"],
 				"footer": "Evitar el uso de comentarios agresivos.",
 				"buttons": ["Reiniciar", "Publicar"]
+			},
+			"viewer": {
+				"title": "Previsualizar publicación",
+				"description": "Asi se vera tu publication en la pagina principal del sitio."
 			}
 		}
 	}
