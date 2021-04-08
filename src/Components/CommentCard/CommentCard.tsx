@@ -28,7 +28,7 @@ const CommentCard: React.FC<CommentCardProps> = (props: CommentCardProps) => {
 			<div className='card-content'>
 				<div className={`content ${Styles.content}`}>
 					<p>{props.post.msg}</p>
-					<a href='#'>@{props.post.userName.replace(' ', '').toLowerCase()}</a>
+					<a href='#date'>@{props.post.userName.replace(' ', '').toLowerCase()}</a>
 					<br />
 					<time dateTime='2016-1-1'>
 						<strong>{lang.post.date}</strong>
@@ -37,13 +37,13 @@ const CommentCard: React.FC<CommentCardProps> = (props: CommentCardProps) => {
 				</div>
 			</div>
 			<footer className='card-footer'>
-				<a href='#' className={`card-footer-item ${Styles.action}`}>
+				<a href='#profile' className={`card-footer-item ${Styles.action}`}>
 					<span className='material-icons-two-tone'>person</span> Ver Perfil
 				</a>
-				<a href='#' className={`card-footer-item ${Styles.action}`}>
+				<a href='#comment' className={`card-footer-item ${Styles.action}`}>
 					<span className='material-icons-two-tone'>chat_bubble</span> Comentar
 				</a>
-				<a href='#' className={`card-footer-item ${Styles.action}`}>
+				<a href='#share' className={`card-footer-item ${Styles.action}`}>
 					<span className='material-icons-two-tone'>share</span> Compartir
 				</a>
 			</footer>

@@ -20,7 +20,7 @@ const CommentsList = () => {
 	return (
 		<div className={Styles.container}>
 			{TestData.posts.map((data: Post, index: number) =>
-				index != 2 ? (
+				index !== 2 ? (
 					<CommentCard post={data} key={data.id} />
 				) : (
 					<div key='filter_0' className={Styles.filters}>
