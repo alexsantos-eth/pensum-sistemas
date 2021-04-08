@@ -13,8 +13,7 @@
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
 		"react-router-dom": "^5.2.0",
-		"react-scripts": "3.4.1",
-		"typescript": "~3.9.7"
+		"react-scripts": "3.4.1"
 	},
 	"scripts": {
 		"strings": "onchange './src/Lang/Strings.json' -- quicktype ./src/Lang/Strings.json -o ./src/Env/Strings.ts --just-types",
@@ -44,6 +43,7 @@
 		]
 	},
 	"devDependencies": {
+		"typescript": "~3.9.7",
 		"onchange": "^7.1.0",
 		"prettier": "^2.1.2",
 		"quicktype": "^15.0.258"
